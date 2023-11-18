@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header,.rightOfHeader{
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightOfHeader{
+  min-width: 300px;
+}
+
+.Header{
+  height: 100px;
+  flex-basis: 30px;
+  background-color: black;
+  color:white;
+  padding-top: 30px;
+  align-items: baseline;
+}
+
+.searchBar{
+  min-width: fit-content;
+}
+
+.searchBar input{
+  width: 300px;
+  border-radius: 30px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.OrderBy{
+  display: flex;
+  align-items: baseline;
+}
+
+.body{
+  height: fit-content;
+  min-height: 100vh;
+  background-color: grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.Home{
+  margin-right:auto ;
+  margin-left: auto;
+  width: 80%;
+  padding-top: 5px;
+}
+
+button{
+  height: 30px;
+  padding:0 20px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: aliceblue;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+
+
+.CreatePost, .UpdatePost{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form{
+  width: 100%;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom:25px;
+  border-radius: 10px;
+}
+
+.form input[class*='write']{
+  display: block;
+  width: 80%;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.form textarea{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  line-height: 2;
+}
+
+.form input[type="Submit"]{
+  display: block;
+  width: 20%;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.PostPage{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.PostPage div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.PostPage div[id='activities']{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 20px;
+  height: 20%;
+}
+
+.PostPage input{
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.PostPage>div>div {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.postPhoto{
+  width: 30%;
+  height: 20px;
+  height: fit-content;
+  border: 1px solid white;
+}
+
+.postPhoto img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2:hover{
+  cursor: pointer;
+}
+
+.postpagemain{
+ height: inherit;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ max-height: 100%;
+}
